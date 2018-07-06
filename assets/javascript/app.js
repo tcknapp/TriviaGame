@@ -15,11 +15,10 @@ function decrement() {
     number --;
     $("#show-timer").html("<h2>" + number + "</h2>");
 
-}
-
-if (number === 0) {
-    stop();
-    console.log("time up")
+    if (number === 0) {
+        stop();
+        console.log("time up")
+    }
 }
 
 function stop() {
