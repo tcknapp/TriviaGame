@@ -1,0 +1,19 @@
+body{
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 12px;
+
+}
+
+h1{
+ 
+}
+
+.question{
+    padding: 4px;
+    margin: px;
+}
+
+
+.answers {
+    margin-bottom: 20px;
+}
