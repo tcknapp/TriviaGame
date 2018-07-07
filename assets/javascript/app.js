@@ -127,7 +127,7 @@ var myQuestions = [
             c: "Arthur",
             d: "The Simpsons",
         },
-        correctAnswer: "c"   
+        correctAnswer: "d"   
     }
 ]
 
@@ -185,7 +185,7 @@ function makeQuiz(questions, quizContainer, resultsContainer, submitButton){
         }
 
         //Correct # 
-        resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
+        resultsContainer.innerHTML = numCorrect + " out of " + questions.length;
     }
 
     //SHOW QUESTIONS ON LOAD
