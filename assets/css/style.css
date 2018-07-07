@@ -12,20 +12,36 @@ body{
     opacity: .9;
     margin: auto;
     text-align: center;
+    flex: auto;
+    padding-bottom: 8px;
  
 }
 
 .header {
-    
+    font-size: 18px;
+    padding-top: 1px;
+}
+
+h1 {
+    color: rgb(240, 11, 99);
 }
 
 .timer {
+    font-size: 14px;
     
 }
 
 .content {
     
-    
+}
+
+.submit {
+
+}
+
+#results {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 
@@ -37,5 +53,9 @@ body{
 
 .answers {
     margin-bottom: 20px;
+
 }
 
+label {
+    margin-left: 8px;
+}
