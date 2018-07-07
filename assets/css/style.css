@@ -1,12 +1,33 @@
 body{
     font-family: "Comic Sans MS", sans-serif;
     font-size: 12px;
-
+    background-image:url("https://github.com/tcknapp/TriviaGame/blob/master/assets/images/old-cartoons-wallpaper-4.jpg?raw=true");
+    width: 100%;
 }
 
-h1{
+
+.container {
+    max-width: 500px;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    text-align: center;
  
 }
+
+.header {
+    
+}
+
+.timer {
+    
+}
+
+.content {
+    
+    
+}
+
 
 .question{
     padding: 4px;
@@ -18,6 +39,3 @@ h1{
     margin-bottom: 20px;
 }
 
-.a, .b, .c, .d {
-    word-spacing: 4px;
-}
