@@ -1,5 +1,5 @@
 //timer
-var number = 31;
+var number = 10;
 var intervalId;
 
 function run() {
@@ -13,7 +13,8 @@ function decrement() {
 
     if (number === 0) {
         stop();
-        console.log("time up")
+        console.log("time up");
+        alert(showResults);
     }
 }
 
@@ -24,7 +25,7 @@ function stop() {
 run();
 
 
-//Questions - Jquery
+//Questions 
 var quizContainer = document.getElementById("quiz");
 var resultsContainer = document.getElementById("results");
 var submitButton = document.getElementById("submit");
@@ -197,6 +198,3 @@ function makeQuiz(questions, quizContainer, resultsContainer, submitButton){
     }
 
 }
-
-
-//restart
