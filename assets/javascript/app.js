@@ -1,5 +1,5 @@
 //timer
-var number = 10;
+var number = 31;
 var intervalId;
 
 function run() {
