@@ -14,7 +14,17 @@ function decrement() {
     if (number === 0) {
         stop();
         console.log("time up");
-        alert(showResults);
+        alert("TIMES UP");
+
+         /*Something to submit results on timeup
+
+        $("#results").html(resultsContainer);?
+
+        $("#results").text(function(){
+            $.post("results", function(resultsContainer){
+                alert("Number Correct: " + numCorrect);? */
+   
+
     }
 }
 
@@ -150,9 +160,9 @@ function makeQuiz(questions, quizContainer, resultsContainer, submitButton){
     //RADIO BUTTONS
         answers.push(
             '<label>'
-                + '<input type="radio" name="question'+i+'" value="'+letter+'">'
-                + letter + ': '
-                + questions[i].answers[letter]
+            + '<input type="radio" name="question'+i+'" value="'+letter+'">'
+             + letter + ': '
+            + questions[i].answers[letter]
             + '</label>'
         );
         }
