@@ -1,4 +1,4 @@
-# TriviaGame
+# Toon Trivia
 
 Guidelines/Requirements:
 
